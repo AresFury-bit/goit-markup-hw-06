@@ -67,7 +67,7 @@ img {
     display: flex;
     justify-content: space-between;
 }
-header {
+.header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow:
         0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -413,7 +413,7 @@ h1 {
     letter-spacing: 0.04em;
     color: #fff;
     border-radius: 4px;
-    padding: 16px, 32px;
+    padding: 16px 32px;
     width: 169px;
     height: 56px;
     text-align: center;
@@ -845,6 +845,7 @@ h2 {
 .footer {
     background: #2e2f42;
     padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 
@@ -1278,7 +1279,7 @@ margin-bottom: 8px;
     letter-spacing: 0.04em;
     color: #8e8f99;
     border-radius: 4px;
-    width: 360px;
+    max-width: 360px;
     height: 16px;
 }
 
